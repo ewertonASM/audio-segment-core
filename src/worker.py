@@ -47,6 +47,7 @@ class Worker:
 
         self.__logger.info("Segmenting audio...")
         snippets = silenceRemoval(tmp_audio_dir)
+        os.remove(tmp_audio_dir)
 
         for index, snippet in enumerate(snippets):
 
