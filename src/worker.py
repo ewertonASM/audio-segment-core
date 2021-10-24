@@ -33,8 +33,8 @@ class Worker:
 
         tmp_dir = "tmp/"
         tmp_audio_dir = f'{tmp_dir}/tmp.wav'
-        teste = body.decode("utf-8")
-        message = json.loads(teste)
+        payload = body.decode("utf-8")
+        message = json.loads(payload)
 
 
         audio = base64.b64decode(message["audio"])
