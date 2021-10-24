@@ -57,4 +57,4 @@ make dev start
 
 ## Contributors
 
-* Ewerton André de Sousa Moura - <ewerton.asmoura@gmail.com>
+* Ewerton Moura - <ewerton.asmoura@gmail.com>
